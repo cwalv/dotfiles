@@ -1,6 +1,6 @@
 [user]
-	email = c@cwa.lv
-	name = cwalv
+  email = c@cwa.lv
+  name = cwalv
 
 [core]
   editor = code --wait
