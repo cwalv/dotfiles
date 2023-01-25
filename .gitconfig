@@ -1,6 +1,6 @@
 [user]
-  email = c@cwa.lv
-  name = cwalv
+  name = Charlie Arnold
+  email = cwalv@meta.com
 
 [core]
   editor = code --wait
@@ -16,3 +16,11 @@
 
 [mergetool "vscode"]
   cmd = code --wait $MERGED
+
+[http]
+  proxy = https://fwdproxy:8082
+  proxySSLCert=/var/facebook/credentials/cwalv/x509/cwalv.pem
+  proxySSLKey=/var/facebook/credentials/cwalv/x509/cwalv.pem
+
+[prompt]
+  showinfo = false
